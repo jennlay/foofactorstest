@@ -18,9 +18,7 @@ factor
 Create a new factor from two existing factors, where the new factor's levels
 are the union of the levels of the input factors.
 }
-\examples{
-fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
-
+\details{
 Why even make this?
 
 (a <- factor(c("character", "hits", "your", "eyeballs")))
@@ -33,5 +31,9 @@ two factors to be an integer vector consisting of the numbers
 
 So, we made fbind(), a function that creates a new factor from
 two factors, a potentially less surprising behaviour.
+}
+\examples{
+fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+
 }
 

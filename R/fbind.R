@@ -11,7 +11,7 @@
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
 #'
-#' @why
+#' @details
 #' Why even make this?
 #'
 #' (a <- factor(c("character", "hits", "your", "eyeballs")))
